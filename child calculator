@@ -1,0 +1,21 @@
+l = input("do you want to add numbers?(yes/no)")
+while l == "yes":
+  y = input("num1=")
+  x = input("num2=")
+  z = float(x) + float(y)
+  if -1 < z < 11:
+     print (x,"+",y,"=",z) 
+  elif 21 > z > 10:
+   print (x,"+",y,"th-thats more than my fingers")
+  elif 41 > z > 20:
+   print (x,"+",y,"more than a million")
+  elif 100 > z > 40:
+   print (x,"+",y,"the size of the galaxy")
+  elif z == 100:
+          print (x,"+",y,"oh oh i know this one, its 10 morer than 10")
+  elif 200 > z > 100:
+     print (x,"+",y,"the size of the galaxy")
+  elif z < 0:
+     print ("you can't do that, that's cheating")
+  else:
+      print ("thats not possible, you dum dum")
